@@ -51,8 +51,11 @@ a:hover{
 
   }
 @media (max-width: 768px) {
+  body{
+    color: black;
+  }
   .bgi{
-    background: url('./tommy-boudreau-diO0a_ZEiEE-unsplash.jpg')  no-repeat;
+    background: url('./ben-eaton-pcd3ibWJKsM-unsplash.jpg')  no-repeat;
     width: 100%;
     height:100vh;
   }
@@ -69,6 +72,16 @@ a:hover{
     -webkit-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
   -moz-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
   box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62)
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+  
+  }
+  a:hover{
+    color: limegreen;
+    text-decoration: none;
   }
 }
 @media (max-width: 576px) {
