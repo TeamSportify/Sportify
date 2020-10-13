@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-body{
+body,html{
   color: white;
   font-family: Poppins,Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+
 }
 .bgi{
-  background: url('./henry-co-6fJyBkPMLWc-unsplash\ \(1\).jpg')  no-repeat;
-  width: 100%;
-  height:100vh;
+  background: url('background/bg4.jpg') ;
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+ 
 }
 .logo{
   height:20vh;
@@ -20,11 +29,12 @@ body{
   border-radius: 18px 18px 18px 18px;
 -moz-border-radius: 18px 18px 18px 18px;
 -webkit-border-radius: 18px 18px 18px 18px;
-  padding: 30px 40px;
+padding: 30px 40px;
   margin-top: 10vh;
-  -webkit-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
--moz-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62)
+
+  -webkit-box-shadow: -1px 3px 28px 10px white;
+-moz-box-shadow: -1px 3px 28px 10px white;
+box-shadow: -1px 3px 28px 10px white;
 }
 a{
   color: azure;
@@ -51,13 +61,12 @@ a:hover{
 
   }
 @media (max-width: 768px) {
-  body{
-    color: black;
-  }
+  
   .bgi{
-    background: url('./ben-eaton-pcd3ibWJKsM-unsplash.jpg')  no-repeat;
+    background: url('background/bg5.jpg')  no-repeat;
     width: 100%;
     height:100vh;
+    background-size: cover;
   }
   .logo{
     height:20vh;
@@ -69,12 +78,12 @@ a:hover{
   
     padding: 10px 10px;
     margin-top: 2 vh;
-    -webkit-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
-  -moz-box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62);
-  box-shadow: -1px 3px 28px 10px rgba(8,8,4,0.62)
+    -webkit-box-shadow: -1px 3px 28px 10px white;
+  -moz-box-shadow: -1px 3px 28px 10px white;
+  box-shadow: -1px 3px 28px 10px white;
   }
   a{
-    color: black;
+    
     text-decoration: none;
     opacity: 0.7;
   
