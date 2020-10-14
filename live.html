@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="Image/png" href="git logo.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapix.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="style_live.css" rel="stylesheet" type="text/css">
+  <title>Sportify</title>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="#"><img src="logo/favicon.png" height="60" width="70">SpOrtiFy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sports
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="cricket.html">Cricket</a>
+            <a class="dropdown-item" href="football.html">Football</a>
+            <a class="dropdown-item" href="basketball.html">Basketball</a>
+            <a class="dropdown-item" href="swimming.html">Swimming</a>
+            <a class="dropdown-item" href="hockey.html">Hockey</a>
+            <a class="dropdown-item" href="badminton.html">Badminton</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Workout Equipments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Live Streaming</a>
+        </li>
+        <button type="button" class="btn btn-outline-light" data-toggle="modal"
+          data-target="#loginModal">LogOut</button>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <!-- LogOut modal-->
+
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style="color:black;"> Hope you enjoyed Sportify <img
+              class="gif" src="gif/wave.gif" width="100" height="100"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <a href="index.html"> <button type="button" class="btn btn-secondary mx-10">LogOut</button></a>
+          <a href="home.html"><button type="button" class="btn btn-info">I will Stay</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Live Streaming-->
+
+  <div class="container-fluid padding my-4">
+    <div class="row welcome text-center">
+      <div class="col-12 my-4">
+        <h1 class="display-4">Now Streaming</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image slider -->
+ 
+  <div class="container my-2 ">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <a href="https://www.sonyliv.com/custompage/sports-2245"> <img class="d-block w-100" src="live_slider/1.jpg" alt="First slide"></a>
+          
+        </div>
+        <div class="carousel-item">
+         <a href="https://www.hotstar.com/in/sports/cricket/indian-premier-league/sunrisers-hyderabad-vs-chennai-super-kings-m701679/match-clips/highlights-frugal-csk-choke-srh/1540002267"> <img class="d-block w-100" src="live_slider/2.jpg" alt="Second slide"></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.sonyliv.com/listing/uefa-nations-league-2245_3773"><img class="d-block w-100" src="live_slider/3.png" alt="Third slide"></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.sonyliv.com/listing/nba-2245_1201"><img class="d-block w-100" src="live_slider/4.jpg" alt="fourth slide"></a>
+        </div>
+
+
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  <!--IPL team rating-->
+
+  <div class="container-fluid padding my-4">
+    <div class="row welcome text-center">
+      <div class="col-12 my-4">
+        <h1 class="display-4">IPL Team Rating</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!--team cards-->
+
+  <!--row1-->
+  <div class="row">
+
+    <div class="col-md-1 ">
+      <img class="gif" src="gif/kiss_emoji.gif">
+    </div>
+    <div class="col-md-2">
+
+    </div>
+    
+
+    <div class="col-sm-6 col-md-4 my-4">
+      <div class="card">
+        <img class="card-img-top" src="cards/kkr.webp" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Kolkata Knight Riders</h5>
+          <center><a href="#" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-1">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 my-4" >
+      <div class="card" >
+        <img class="card-img-top" src="cards/dc.jpg" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Delhi Capitals</h5>
+          <center><a href="#" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+        <div class="progress my-2">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+        </div>
+      </div>
+ 
+      <div class="col-md-2">
+      </div>
+
+
+    
+  </div>
+
+  <!--row2-->
+
+  <div class="row my-4">
+    <div class="col-sm-4 col-md-4 my-4">
+      <div class="card">
+        <img class="card-img-top" src="cards/srh.jpg" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Sunrisers Hyderabad</h5>
+          <center><a href="#" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-2">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" >82%</div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 col-md-4 my-4">
+      <div class="card">
+        <img class="card-img-top" src="cards/mi.png" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Mumbai Indians</h5>
+          <center><a href="#" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-2">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 79%" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" >79%</div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 col-md-4 my-4" >
+      <div class="card" >
+        <img class="card-img-top" src="cards/csk.jpg" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Chennai Super Kings</h5>
+          <center><a href="https://www.chennaisuperkings.com/CSK_WEB/index.html" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-2">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >70%</div>
+      </div>
+    </div>
+    
+  </div>
+
+<!--row3-->
+
+  <div class="row">
+
+    <div class="col-md-1 ">
+    </div>
+
+    <div class="col-sm-6 col-md-4 my-4">
+      <div class="card">
+        <img class="card-img-top" src="cards/kxip.jpg" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Kings XI Punjab</h5>
+          <center><a href="#" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-2">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" >45%</div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 my-4" >
+      <div class="card" >
+        <img class="card-img-top" src="cards/rcb.jpg" alt="Card image cap">
+        <div class="card-body" style="background-color:black;">
+          <h5 class="card-title" style="text-align: center;">Royal Challenger Banglore</h5>
+          <center><a href="https://www.royalchallengers.com/" class="btn btn-outline-light">Follow</a></center>
+        </div>
+      </div>
+      <div class="progress my-2">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >10%</div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div style="vertical-align: bottom;">
+      <img style="vertical-align: bottom;" class="gif" src="gif/poo.gif" height="150" width="150">
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <hr class="light">
+
+   <!--connect-->
+   <div class="container-fluid padding">
+    <div class="row text-center padding my-4">
+      <div class="col-12 my-4">
+        <h2>Connect</h2>
+      </div>
+      <div class="col-12 social padding">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="container-fluid padding foot expand-lg">
+      <div class="row text-center">
+        <div class="col-md-5">
+          <img src="logo/centre logo.png" width="150" height="160">
+          <hr class="light1">
+          <ul style=list-style-type: circle;" class="text-left">
+            <li>Best sports products available.</li>
+            <li>Best workout Equipments on sale.</li>
+            <li>Watch live HD sports streams.</li>
+            <li>TRENDING: Check out the latest ratings of the IPL teams.</li>
+          </ul>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5" class="float-right" style="margin-top: 4%;">
+          <hr class="light1">
+          <p>GET IN TOUCH</p>
+          <hr class="light1">
+          <br>
+          <p>contact Us:</p>
+          <p>6265119916 | 9340637313</p>
+        </div>
+        <div class="col-12">
+          <hr class="light2">
+          <p>Sportify &copy; 2020 ALL RIGHTS RESERVED <a href="#">Privacy</a> &middot; <a href="#">Terms</a><br></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ 
+
+
+
+
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
